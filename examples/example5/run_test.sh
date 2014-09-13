@@ -2,4 +2,4 @@
 
 
 # Using LLNL job handler (srun)
-LD_PRELOAD=../../../install/lib/libstracker.so srun -n 16 -ppdebug ./test
+LD_PRELOAD=../../../install/lib/libstracker.so mpiexec -n 16 ./test
